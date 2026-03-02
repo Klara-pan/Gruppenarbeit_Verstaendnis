@@ -3,18 +3,43 @@
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 :root {
     color:rgb(0, 255, 229) ;
     --blue: rgb(127, 189, 255);
-    color: rgb(0, 0, 77);
-    color: black;
+    --darkblue: rgb(0, 0, 77);
+    --black: black;
     color: rgb(255, 255, 255);
 }
 
+.background {
+    background-color: var(--darkblue);
+    z-index: 1;
+    position: relative;
+    padding: 34px;
+    justify-items: center;
+    align-content: center;
+}
+
+.boss {
+    width: 440px;
+    display: flex;
+}
+
 .quizcard {
-    background-color: var(--blue) ;
+    margin: -184px 64px 64px 64px;
+    padding: 34px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 2;
+    width: 340px;
 }
 
 .questionstructure {
     display: flex;
+    justify-content: space-between;
+    background-color: var(--blue);
 }
