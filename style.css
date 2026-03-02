@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    color:rgb(0, 255, 229) ;
+    --blue: rgb(127, 189, 255);
+    color: rgb(0, 0, 77);
+    color: black;
+    color: rgb(255, 255, 255);
+}
+
+.quizcard {
+    background-color: var(--blue) ;
+}
+
+.questionstructure {
+    display: flex;
+}
